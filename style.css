@@ -1,0 +1,78 @@
+ 
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 120px;
+  }
+  
+  .skill-box {
+    width: 250px;
+    background-color: #190f52;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .skill-box h3 {
+    margin-top: 0;
+  }
+  
+  .skill-box p {
+    margin-bottom: 0;
+  }
+  .footer {
+    background-color: rgb(7, 14, 48);
+    color: white;
+    padding: 40px 0;
+  }
+  
+  .footer-content {
+   width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footer-name {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .footer-name h3 {
+    margin: 0;
+  }
+  
+  .footer-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 16px;
+    background-color:  rgb(7, 14, 48);
+    
+
+  }
+  
+  .footer-social a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 18px;
+    
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+  }
+  * a:hover{
+    color: rgb(195, 125, 221);
+  }
+  

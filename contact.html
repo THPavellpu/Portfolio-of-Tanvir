@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Me</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(7, 14, 51);
+      color: white;
+    }
+
+    header {
+      background-color: rgb(84, 60, 157);
+      color: #fff;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 20px auto;
+    }
+    
+
+    form label,
+    form input,
+    form textarea {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 5px;
+    }
+
+    form textarea {
+      height: 100px;
+    }
+
+    input[type="submit"] {
+      background-color: rgb(84, 60, 157);
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: rgb(84, 60, 157);
+      text-align: center;
+      padding: 20px;
+    }
+
+    .contact-info {
+      margin-bottom: 20px;
+    }
+
+    .contact-info p {
+      margin: 5px 0;
+    }
+   
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+  </header>
+
+  <div class="container">
+    <div class="contact-info">
+      <h2>How to reach me:</h2>
+      <p>Address: 123 Main Street, City, Country</p>
+      <p>Email: tanvirhossenpavel2018@gmail.com</p>
+      <p>Social Media: <a href="https://www.facebook.com/yourprofile">Facebook</a>, <a href="https://twitter.com/yourprofile">Twitter</a>, <a href="https://www.instagram.com/yourprofile">Instagram</a></p>
+    </div>
+
+    <form action="mailto:yourname@example.com" method="post" enctype="text/plain">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Your Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
