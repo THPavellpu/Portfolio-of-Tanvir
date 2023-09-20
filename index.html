@@ -51,18 +51,24 @@
       .left{
         font-size: 1.8rem;
       }
+      .leftsection img{
+        padding-top:110px ;
+        height: 350px ;
+        margin-left: 135px;
+        
+      }
       .firstsection{
         display: flex;
-        justify-content: space-around;
-        margin: 70px 0px 0px;
+        justify-content: space-between;
+        
         
       }
       .rightsection{
        
-        padding-top:30px ;
+        padding-top:110px ;
         font-size: 3rem;
       }
-      .rightsection .btn{
+      .leftsection .btn1{
           background-color: rgb(7, 14, 51);
           color: white;
           border: 2px solid white;
@@ -70,31 +76,48 @@
           cursor: pointer;
           font-size:20px;
           padding: 12px;
+          margin-top: 25px;
+          margin-left: 170px;
+
+      }
+      .leftsection .btn2{
+          background-color: rgb(7, 14, 51);
+          color: white;
+          border: 2px solid white;
+          border-radius: 6px;
+          cursor: pointer;
+          font-size:20px;
+          padding: 12px;
+          margin-top: 25px;
+          margin-left: 20px;
 
       }
     
-      .leftsection img{
-        padding-top:50px ;
-        
-        margin: 20px;
-        
-      }
+      
    
       .secondsection{
         display: flex;
-        justify-content: space-around;
-        margin: 30px 0 ;
-        padding: 30px ;
+        justify-content: space-between;
+        padding-top: 50px;
+        
 
         
       }
       .leftsection2{
         font-size: 1.8rem;
-        padding-left: 100px;
+        padding-left: 80px;
+      }
+      .rightsection2{
+        padding-right: 50px;
       }
       #webdeveloper{
         color: rgb(84, 60, 157);
         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+      #webdev{
+        color: rgb(84, 60, 157);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
       }
       .thirdsection{
         max-width: 80vw;
@@ -120,22 +143,25 @@
     </header>
     <main>
         <section class="firstsection">
-          <div class="lefttsection"><img src="thp.png" height="350"> </div>
-          <div class="rightsection">Peace be upon you<br>I am Tanvir.<br>I am a passonate <br><span id="webdeveloper"><span id="element"></span></span><br>
+          <div class="leftsection"><img src="thp.png"> <br>
             <div class="button">
-              <a href="CV THP Final.pdf" download><button class="btn">Download Resume</button></a>
-              <a href="https://github.com/THPavellpu"><button class="btn">Github</button></a>
+              <a href="CV THP Final.pdf" download><button class="btn1">Download Resume</button></a>
+              <a href="https://github.com/THPavellpu"><button class="btn2">Github</button></a>
             </div>
+          </div>
+          
+          <div class="rightsection">Peace be upon you<br>I am Tanvir.<br>I am a passonate<br><span id="webdev">Web Developer</span><br>& trying to become <br><span id="webdeveloper"><span id="element"></span></span><br>
+           
           </div>
           
           
             
         </section>
-        <section class="secondsection">
+        <div class="secondsection">
           
-          <div class="leftsection2">Are you looking for Web development Expert?<br>Welcome you to the right place.Here i offer you all the great service related any type of webdevelopment project.What are u looking for? I offer you <span id="element2"></span>,Blogging,Affiliate-marketing,Streamming-platform,Ticket-booking platform and so on...  </div>
-          <div class="rightsection2"><img src="wb.png" ></div>
-        </section>
+          <div class="leftsection2"><img src="wb.png" class="float" >Are you looking for Web development Expert?<br>Welcome you to the right place.Here i offer you all the great service related any type of webdevelopment project.What are u looking for? I offer you Blog website,Affiliate-marketing,Portfolio Website,Ticket-booking platform and so on...  </div>
+         
+        </div>
         <section class="thirdsection">
           <p>What i have done so far</p><br>
           <h1>Work Experience</h1><hr>
@@ -202,7 +228,7 @@
           <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <script>
     var typed = new Typed('#element', {
-      strings: [ 'Programmer','Content Writter','Web Developer',],
+      strings: [ 'a Programmer',' an App Developer'],
       typeSpeed: 50,
     });
   </script>
